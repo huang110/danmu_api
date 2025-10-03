@@ -43,7 +43,7 @@ function resolveVodServer(env) {
   return DEFAULT_VOD_SERVER;
 }
 
-const DEFAULT_BILIBILI_COOKIE = ""; // 默认 bilibili cookie
+const DEFAULT_BILIBILI_COOKIE = "buvid4=B9E4A17C-B879-390C-3640-6A47192ED36E23497-025081918-oq3OsBkVBGUFJEZABLcO+Q%3D%3D"; // 默认 bilibili cookie
 let bilibliCookie = DEFAULT_BILIBILI_COOKIE;
 
 // 这里既支持 Cloudflare env，也支持 Node process.env
